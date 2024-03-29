@@ -1,0 +1,19 @@
+object Form5: TForm5
+  Left = 101
+  Height = 240
+  Top = 258
+  Width = 320
+  Caption = 'Form5'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '3.2.0.0'
+  object BitBtn1: TBitBtn
+    Left = 143
+    Height = 35
+    Top = 173
+    Width = 109
+    Caption = 'BitBtn1'
+    OnClick = BitBtn1Click
+    TabOrder = 0
+  end
+end

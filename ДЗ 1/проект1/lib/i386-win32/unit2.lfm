@@ -1,0 +1,21 @@
+object Form2: TForm2
+  Left = 111
+  Height = 240
+  Top = 197
+  Width = 320
+  Caption = 'Form2'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '3.2.0.0'
+  object BitBtn1: TBitBtn
+    Left = 187
+    Height = 43
+    Top = 187
+    Width = 119
+    Caption = 'Выход'
+    Kind = bkClose
+    ModalResult = 11
+    OnClick = BitBtn1Click
+    TabOrder = 0
+  end
+end
