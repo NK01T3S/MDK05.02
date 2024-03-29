@@ -1,0 +1,54 @@
+object Form1: TForm1
+  Left = 18
+  Height = 346
+  Top = 209
+  Width = 444
+  Caption = 'Form1'
+  ClientHeight = 346
+  ClientWidth = 444
+  LCLVersion = '3.2.0.0'
+  object Memo1: TMemo
+    Left = 14
+    Height = 64
+    Top = 13
+    Width = 418
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 31
+    Height = 15
+    Top = 112
+    Width = 167
+    Caption = 'Введите радиус окружности R:'
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 15
+    Top = 156
+    Width = 166
+    Caption = 'Введите отношение сторон N:'
+  end
+  object Edit1: TEdit
+    Left = 258
+    Height = 23
+    Top = 112
+    Width = 88
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    Left = 258
+    Height = 23
+    Top = 156
+    Width = 88
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 288
+    Height = 24
+    Top = 248
+    Width = 72
+    Caption = 'Вычислить'
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+end
