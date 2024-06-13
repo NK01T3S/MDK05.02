@@ -1,0 +1,34 @@
+object fMain: TfMain
+  Cursor = crNone
+  Left = 94
+  Height = 504
+  Top = 126
+  Width = 991
+  BorderStyle = bsNone
+  Caption = 'fMain'
+  ClientHeight = 0
+  ClientWidth = 0
+  Color = clBlack
+  LCLVersion = '3.2.0.0'
+  WindowState = wsMaximized
+  object lClock: TLabel
+    Left = 352
+    Height = 77
+    Top = 192
+    Width = 301
+    Caption = '00:00:00'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -64
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 250
+    Top = 30
+  end
+end

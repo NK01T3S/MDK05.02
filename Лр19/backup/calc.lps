@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="calc.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="24"/>
+        <UsageCount Value="27"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit_calc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CalculaTaar"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="83"/>
+        <CursorPos X="7" Y="93"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1783"/>
+        <CursorPos X="23" Y="1798"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\math.pp"/>
+        <UnitName Value="Math"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="310"/>
+        <UsageCount Value="9"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="25">
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="107" Column="20" TopLine="91"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="58" Column="18" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="109" Column="21" TopLine="91"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="120" Column="35" TopLine="95"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="141" Column="4" TopLine="116"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="106" Column="7" TopLine="69"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="127" Column="43" TopLine="114"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="132" Column="18" TopLine="111"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="129" Column="26" TopLine="114"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="133" Column="28" TopLine="119"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="134" Column="16" TopLine="119"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="122" Column="8" TopLine="117"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="120" Column="3" TopLine="117"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="120" Column="3" TopLine="117"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="140" Column="28" TopLine="114"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="122" Column="14" TopLine="101"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="137" Column="23" TopLine="128"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="107" Column="11" TopLine="97"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="146" Column="23" TopLine="136"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="122" Column="16" TopLine="103"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="156" Column="29" TopLine="151"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="109" Column="16" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="72" Column="3" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="204" Column="14" TopLine="184"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="108" Column="3" TopLine="76"/>
+      </Position>
+      <Position>
+        <Filename Value="unit_calc.pas"/>
+        <Caret Line="158" Column="20" TopLine="150"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
