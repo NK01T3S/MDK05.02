@@ -1,0 +1,102 @@
+object GothicCh: TGothicCh
+  Left = 316
+  Height = 302
+  Top = 155
+  Width = 570
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Персонажи'
+  ClientHeight = 302
+  ClientWidth = 570
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '3.2.0.0'
+  object SG: TStringGrid
+    Left = -2
+    Height = 276
+    Top = 26
+    Width = 572
+    FixedCols = 0
+    ParentFont = False
+    RowCount = 1
+    TabOrder = 0
+    OnDblClick = bEditClick
+  end
+  object bAdd: TSpeedButton
+    Left = 200
+    Height = 22
+    Top = 3
+    Width = 110
+    Caption = 'Добавить'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -14
+    Font.Name = 'System'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = bAddClick
+    ParentFont = False
+  end
+  object bDel: TSpeedButton
+    Left = 453
+    Height = 22
+    Top = 5
+    Width = 110
+    Caption = 'Удалить'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -14
+    Font.Name = 'System'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = bDelClick
+    ParentFont = False
+  end
+  object bEdit: TSpeedButton
+    Left = 336
+    Height = 22
+    Top = 5
+    Width = 110
+    Caption = 'Изменить'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -14
+    Font.Name = 'System'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = bEditClick
+    ParentFont = False
+  end
+  object CBsort: TComboBox
+    Left = 88
+    Height = 24
+    Top = 3
+    Width = 100
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -10
+    Font.Name = 'System'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ItemHeight = 16
+    ItemIndex = 0
+    Items.Strings = (
+      'Имя'
+      'Уровень'
+      'Учитель'
+      'Гильдия'
+      'Резиденция'
+    )
+    ParentFont = False
+    TabOrder = 1
+    Text = 'Имя'
+    OnChange = CBsortChange
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 15
+    Top = 8
+    Width = 71
+    Caption = 'Сортировать'
+  end
+end
